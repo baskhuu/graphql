@@ -67,4 +67,13 @@
             }
             -------------------------------
 
+7.  Added local source to Git remote repository
+    https://www.youtube.com/watch?v=tlu5e0TxSzo
+    ->  git init
+    ->  touch README.md
+    ->  git add .
+    ->  git commit -m "initial commit"
+    ->  git branch -M main
+    ->  git remote add origin https://github.com/baskhuu/graphql.git
+    ->  git push -u origin main
 
