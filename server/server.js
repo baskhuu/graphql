@@ -25,6 +25,7 @@ const server = new ApolloServer({
 });
 
 //Waiting promise from [3] and deconstruct url from result.
-const { url } = await startStandaloneServer(server);
+const { url } = await startStandaloneServer(server, { listen : { port : 4567 } });
+// const { url } = await startStandaloneServer(server);
 
 console.log(` Server ready at ${url}`);
